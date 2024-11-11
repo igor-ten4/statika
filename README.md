@@ -25,7 +25,7 @@ This controls the listen address for the server, it follows the syntax described
 Copy the folder with your static content into `/static`
 
 ```dockerfile
-FROM igor104/statika:alpine
+FROM igor104/statika:v1.0.0
 
 COPY public /static
 ```
